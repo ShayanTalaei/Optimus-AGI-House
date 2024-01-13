@@ -1,0 +1,3 @@
+{
+    "description": "A call center needs to schedule shifts for its employees. Each shift requires a minimum number of employees, and each employee can work only certain hours. The goal is to minimize the total number of employee-hours while covering all shifts."
+}

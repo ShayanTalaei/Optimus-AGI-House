@@ -1,0 +1,197 @@
+---
+A furniture company produces tables and chairs. Each table and chair requires different amounts of wood and labor. The company wants to maximize its profit considering the cost of materials, labor, and the selling price of tables and chairs. Formulate a linear program to determine how many tables and chairs should be produced.
+---
+
+A company has a fixed budget for advertising and can advertise on TV, radio, or online. Each advertising medium reaches a different number of people and has a different cost. The goal is to maximize the total audience reach within the budget. Create a linear program to allocate the advertising budget.
+
+---
+
+A dietician wants to create a meal plan using different food items. Each item has a cost and provides certain amounts of nutrients (like protein, carbs, fats). The goal is to minimize the total cost of the diet while meeting the nutritional requirements.
+
+---
+
+A school district wants to optimize its school bus routes. Each bus has a capacity limit, and each route has a different number of students. The objective is to minimize the total distance traveled by all buses while ensuring each student is picked up.
+
+---
+
+A factory produces several products. Each product requires different amounts of resources like raw materials, machine time, and labor. The factory needs to determine the optimal production schedule to maximize profits while not exceeding resource capacities.
+
+---
+
+An investor wants to allocate their capital across a range of financial assets to maximize expected returns while minimizing risk. Each asset has an expected return and a risk profile. Formulate a linear program to optimize the asset allocation.
+
+---
+
+A call center needs to schedule shifts for its employees. Each shift requires a minimum number of employees, and each employee can work only certain hours. The goal is to minimize the total number of employee-hours while covering all shifts.
+
+---
+
+A retailer must decide how much stock to order for each product from various suppliers. Each supplier has different delivery times and costs. The objective is to minimize total supply costs while ensuring stock availability.
+
+---
+
+A farmer has a limited amount of land to plant various crops. Each crop has a different profit margin, growth time, and requires a different amount of resources (like water, fertilizer). The goal is to maximize profit from the crops within the resource constraints.
+
+---
+
+An energy company needs to optimize the distribution of electricity from different sources (like solar, wind, fossil fuels) to various neighborhoods. Each source has a different production cost and capacity. The objective is to minimize the total cost of energy production while meeting the demand.
+
+---
+
+A hospital needs to schedule doctors and nurses across different departments. Each department requires a minimum number of staff per shift, and each staff member has availability constraints. The goal is to meet departmental staffing needs while minimizing total working hours.
+
+---
+
+An airline needs to schedule flights using a limited number of planes. Each plane has a different capacity and operating cost, and each route has a different potential revenue. The objective is to maximize profits by optimizing the flight schedule.
+
+---
+
+A manufacturer of electronic devices has several assembly lines, each with different production capacities and costs. The goal is to determine the optimal quantity of each device to produce to maximize overall profit, considering production costs and market demand.
+
+---
+
+A logistics company must transport goods from multiple warehouses to various destinations. Each route has a transportation cost and each warehouse has a limited supply. The aim is to minimize total transportation costs while meeting the demand at each destination.
+
+---
+
+In disaster relief operations, resources like food, water, and medical supplies must be distributed. Each resource has a limited availability and each affected area has different needs. The objective is to optimize the allocation of resources to maximize the aid provided.
+
+---
+
+A sports league needs to schedule games for the season. Each team has a home stadium and there are constraints on travel and game frequency. The goal is to create a schedule that minimizes travel distances while ensuring fairness in the game schedule.
+
+---
+
+A movie theater with multiple screens needs to decide which films to show and at what times. Each film has a different potential audience and duration. The objective is to schedule film showings to maximize ticket sales revenue.
+
+---
+
+A supermarket wants to optimize the layout of its shelves to maximize sales. Each product has a different sales potential and size. The goal is to arrange products to maximize sales while considering space constraints.
+
+---
+
+A recycling plant processes various materials. Each material has a different processing cost and resale value. The aim is to optimize the processing of materials to minimize waste and maximize profit.
+
+---
+
+A hotel needs to determine optimal staffing levels for different departments (like reception, housekeeping) considering varying guest occupancy rates. The goal is to ensure adequate service levels while minimizing labor costs.
+
+---
+
+A building manager wants to minimize energy costs considering various energy sources (solar, grid) and consumption patterns. The objective is to optimize the usage of energy sources to reduce costs and environmental impact.
+
+---
+
+A farmer needs to allocate water efficiently across different crops under varying weather conditions. The goal is to maximize crop yield while minimizing water usage, considering the water needs of each crop.
+
+---
+
+A retail store needs to manage its inventory, considering varying demand, storage costs, and shelf life of products. The objective is to minimize inventory costs while ensuring product availability.
+
+---
+
+A city planner wants to optimize traffic light timings to reduce congestion. Each intersection has different traffic flow patterns. The goal is to minimize overall travel time in the city.
+
+---
+
+A city needs to optimize its waste collection routes. Each truck has a capacity limit, and each area generates different amounts of waste. The objective is to minimize the total distance traveled by garbage trucks.
+
+---
+
+An energy company wants to optimize the output of its renewable energy sources (wind, solar, hydro) considering varying weather conditions and energy demands. The goal is to maximize energy production while minimizing costs.
+
+---
+
+A restaurant needs to schedule its staff (chefs, waiters) considering varying customer footfall at different times. The aim is to ensure efficient service while controlling labor costs.
+
+---
+
+A manufacturing company wants to minimize its carbon footprint. Each production process has different emission levels and costs. The goal is to optimize the production processes to reduce total emissions.
+
+---
+
+An event planner needs to arrange seating for guests considering various groups and preferences. The objective is to maximize guest satisfaction by optimizing the seating arrangement.
+
+---
+
+A data center manager needs to optimize the allocation of computing resources (servers, storage) to different tasks, considering varying computational demands and energy costs. The goal is to maximize computational efficiency while minimizing energy usage.
+
+---
+
+A school must assign classrooms to various classes considering the size of each class and the capacity of each room. The goal is to allocate rooms efficiently to accommodate all classes without overcrowding.
+
+---
+
+A library wants to optimize the allocation of space for books, seating, and computer stations to maximize usage. Each section has different space requirements and popularity among visitors. The objective is to maximize visitor satisfaction.
+
+---
+
+A shipping company needs to optimize routes and cargo allocation among its fleet of ships, considering different capacities and operating costs. The aim is to minimize total shipping costs while meeting delivery schedules.
+
+---
+
+A project manager needs to allocate developers with varying skills and hourly rates to tasks in a software project. The goal is to minimize labor costs while ensuring timely project completion.
+
+---
+
+A chemical plant produces various products using different raw materials and processes. The objective is to maximize production efficiency, considering material costs, production capacity, and market demand.
+
+---
+
+A parking garage has limited space and wants to maximize its revenue. Different types of parking spots (e.g., regular, premium) have different prices. The goal is to optimize the allocation of parking spaces.
+
+---
+
+A gym owner wants to arrange exercise equipment to maximize member satisfaction and safety. Each piece of equipment has different space requirements and popularity. The objective is to create an optimal layout.
+
+---
+
+A food processing plant aims to minimize waste in its operations. Each process has a different waste factor and cost. The goal is to adjust the processes to minimize total waste.
+
+---
+
+A retail chain needs to optimize staffing across its stores considering varying customer footfall and sales patterns. The objective is to ensure adequate staff coverage while controlling labor costs.
+
+---
+
+A farmer needs to decide what mix of crops and livestock to raise. Each option has different costs, revenues, and land usage requirements. The goal is to maximize profit while using resources efficiently.
+
+---
+
+A warehouse manager wants to optimize the arrangement of goods to maximize space utilization and minimize retrieval time. Each type of good has different size and accessibility requirements.
+
+---
+
+An industrial complex aims to minimize its energy consumption considering varying energy rates and operational requirements. The objective is to optimize energy usage across different processes.
+
+---
+
+An event organizer wants to maximize revenue by optimizing ticket prices for different seating zones, considering demand and viewer experience. The goal is to set prices that maximize overall revenue.
+
+---
+
+A non-profit organization must allocate limited funds and volunteers to various projects. Each project has different impacts and resource needs. The objective is to maximize the overall impact of the organization.
+
+---
+
+A hospital needs to schedule the use of medical equipment like MRI machines, considering patient needs and equipment availability. The goal is to maximize patient throughput while ensuring timely care.
+
+---
+
+A mining company needs to decide which ores to extract from different sites, considering extraction costs and market prices. The objective is to maximize profit while managing environmental impact.
+
+---
+
+A city wants to optimize bus and train schedules to minimize passenger wait times and maximize coverage. The goal is to create a schedule that best serves the transportation needs of the city.
+
+---
+
+An online retailer needs to decide which products to promote and stock, considering sales data and supply chain constraints. The objective is to maximize sales while minimizing stockouts and overstock.
+
+---
+
+A funding agency must distribute limited funds among various research proposals. Each proposal has different potential impacts and funding requirements. The goal is to allocate funds to maximize the overall research impact.
+
+---
+
+A multinational corporation wants to minimize its overhead costs by optimizing the location and size of its offices and factories. The objective is to reduce costs while maintaining operational efficiency and market presence.
