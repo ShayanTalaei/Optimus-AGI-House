@@ -1,1 +1,17 @@
-{"description": "A furniture company produces tables and chairs. Each table and chair requires different amounts of wood and labor. The company wants to maximize its profit considering the cost of materials, labor, and the selling price of tables and chairs. Formulate a linear program to determine how many tables and chairs should be produced."}
+{
+    "original_problem_description": "A furniture company produces tables and chairs. Each table and chair requires different amounts of wood and labor. The company wants to maximize its profit considering the cost of materials, labor, and the selling price of tables and chairs. Formulate a linear program to determine how many tables and chairs should be produced.",
+    "questions": [
+        {
+            "vague_problem_description": "A furniture company produces tables and chairs. Each product requires different amounts of wood and labor. The company wants to optimize its performance considering the cost of materials, labor, and the selling price of its products. Formulate a program to determine the production quantities.",
+            "clarifying_question": "What is the specific objective of the company's optimization problem \u2013 is it to maximize profit, minimize costs, or balance some other set of priorities?"
+        },
+        {
+            "vague_problem_description": "A furniture company produces tables and chairs. The production requires resources and labor. The company intends to determine how many tables and chairs should be produced to maximize its profit.",
+            "clarifying_question": "What are the units and range for the decision variables\u2014must the number of tables and chairs produced be integral, or can they take on fractional values?"
+        },
+        {
+            "vague_problem_description": "A furniture company makes use of wood and labor to craft its products. The company is interested in an optimization approach that involves the costs and selling price to find the right production quantities. The goal is to ensure profitability.",
+            "clarifying_question": "Can you specify the constraints for the materials and labor? Are there any limits to the amount of wood and labor hours available per production cycle?"
+        }
+    ]
+}

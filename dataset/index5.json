@@ -1,1 +1,17 @@
-{"description": "A factory produces several products. Each product requires different amounts of resources like raw materials, machine time, and labor. The factory needs to determine the optimal production schedule to maximize profits while not exceeding resource capacities."}
+{
+    "original_problem_description": "A factory produces several products. Each product requires different amounts of resources like raw materials, machine time, and labor. The factory needs to determine the optimal production schedule to maximize profits while not exceeding resource capacities.",
+    "questions": [
+        {
+            "vague_problem_description": "A factory produces several products. Each product uses different amounts of resources, machine time, and labor. The factory seeks to select an optimal production schedule to utilize resources.",
+            "clarifying_question": "What is the objective of the factory's optimal production schedule \u2013 is it to maximize profits, minimize costs, or balance between multiple factors?"
+        },
+        {
+            "vague_problem_description": "A factory produces several products. Each product requires different amounts of raw materials, time, and labor. There's a need to determine the best production schedule considering the limitations imposed.",
+            "clarifying_question": "What are the specific limitations or resource capacities that the factory must not exceed? Are there any maximum or minimum production quotas for each product?"
+        },
+        {
+            "vague_problem_description": "A factory manufactures a range of products. All products need various resources, including materials and labor. The goal is to establish an effective production plan to meet market demands.",
+            "clarifying_question": "Are there any specific market demand constraints that dictate how much of each product needs to be produced? Additionally, are there upper bounds for production due to machine availability or labor shifts?"
+        }
+    ]
+}

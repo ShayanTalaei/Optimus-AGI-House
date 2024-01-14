@@ -1,1 +1,17 @@
-{"description": "An investor wants to allocate their capital across a range of financial assets to maximize expected returns while minimizing risk. Each asset has an expected return and a risk profile. Formulate a linear program to optimize the asset allocation."}
+{
+    "original_problem_description": "An investor wants to allocate their capital across a range of financial assets to maximize expected returns while minimizing risk. Each asset has an expected return and a risk profile. Formulate a linear program to optimize the asset allocation.",
+    "questions": [
+        {
+            "vague_problem_description": "An investor wants to allocate their capital across a portfolio of assets. Each asset has an expected return and risk associated with it. The allocation should be done in a way to optimize the portfolio.",
+            "clarifying_question": "Should the optimization focus on maximizing expected returns, minimizing risk, or finding an optimal trade-off between the two?"
+        },
+        {
+            "vague_problem_description": "An investor is looking to distribute their funds among a selection of financial assets to adjust for expected performance. These assets each have an associated risk and return profile.",
+            "clarifying_question": "Are there any constraints on how much capital can be allocated to each asset, and are there minimum or maximum investment limits for individual assets?"
+        },
+        {
+            "vague_problem_description": "An individual seeks to optimize an investment strategy involving various assets, each presenting a particular level of expected profitability and associated risk.",
+            "clarifying_question": "Can the investor take short positions in any of the assets, or are they restricted to only long positions?"
+        }
+    ]
+}

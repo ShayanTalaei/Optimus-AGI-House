@@ -1,1 +1,17 @@
-{"description": "A dietician wants to create a meal plan using different food items. Each item has a cost and provides certain amounts of nutrients (like protein, carbs, fats). The goal is to minimize the total cost of the diet while meeting the nutritional requirements."}
+{
+    "original_problem_description": "A dietician wants to create a meal plan using different food items. Each item has a cost and provides certain amounts of nutrients (like protein, carbs, fats). The goal is to minimize the total cost of the diet while meeting the nutritional requirements.",
+    "questions": [
+        {
+            "vague_problem_description": "A dietician wants to create a meal plan with different food items with associated costs. The goal is to design the diet to minimize expenses while considering nutritional requirements.",
+            "clarifying_question": "What specific nutrients are required in the meal plan, and are there minimum and maximum daily allowances for these nutrients?"
+        },
+        {
+            "vague_problem_description": "A dietician is planning a diet using various food items. Each has a cost and provides nutrients. The objective is to create a cost-effective meal plan that is nutritionally adequate.",
+            "clarifying_question": "Are there any dietary restrictions or allergies that need to be accounted for in the meal plan?"
+        },
+        {
+            "vague_problem_description": "A dietician is formulating a meal plan from a selection of foods, each offering certain nutritional values. The aim is to ensure a cost-efficient diet that satisfies nutritional standards.",
+            "clarifying_question": "Can food quantities be fractional, or do they need to be in whole units?"
+        }
+    ]
+}

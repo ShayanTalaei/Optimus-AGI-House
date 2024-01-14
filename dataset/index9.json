@@ -1,1 +1,4 @@
-{"description": "A farmer has a limited amount of land to plant various crops. Each crop has a different profit margin, growth time, and requires a different amount of resources (like water, fertilizer). The goal is to maximize profit from the crops within the resource constraints."}
+{
+    "description": "A farmer has a limited amount of land to plant various crops. Each crop has a different profit margin, growth time, and requires a different amount of resources (like water, fertilizer). The goal is to maximize profit from the crops within the resource constraints.",
+    "clarfying_questions": 
+}

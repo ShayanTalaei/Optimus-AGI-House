@@ -1,1 +1,5 @@
-{"description": "A retailer must decide how much stock to order for each product from various suppliers. Each supplier has different delivery times and costs. The objective is to minimize total supply costs while ensuring stock availability."}
+{
+    "description": "A retailer must decide how much stock to order for each product from various suppliers. Each supplier has different delivery times and costs. The objective is to minimize total supply costs while ensuring stock availability.",
+
+    "clarifying_questions": []
+}

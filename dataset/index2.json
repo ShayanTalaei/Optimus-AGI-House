@@ -1,1 +1,17 @@
-{"description": "A company has a fixed budget for advertising and can advertise on TV, radio, or online. Each advertising medium reaches a different number of people and has a different cost. The goal is to maximize the total audience reach within the budget. Create a linear program to allocate the advertising budget."}
+{
+    "original_problem_description": "A company has a fixed budget for advertising and can advertise on TV, radio, or online. Each advertising medium reaches a different number of people and has a different cost. The goal is to maximize the total audience reach within the budget. Create a linear program to allocate the advertising budget.",
+    "questions": [
+        {
+            "vague_problem_description": "A company has a fixed budget for marketing and can use different channels. Each channel reaches a different number of people and has a different cost. The goal is to optimize the use of the budget.",
+            "clarifying_question": "What is the specific objective of the marketing budget optimization? Is it to maximize the total audience reach, maximize the return on investment, or another goal?"
+        },
+        {
+            "vague_problem_description": "A company has a fixed budget for advertising and can choose among several mediums, each with its own impact and cost. The company needs to allocate its advertising budget effectively.",
+            "clarifying_question": "Are there specific constraints on how the advertising budget must be allocated across mediums, such as minimum or maximum spends, or is it solely based on the fixed total budget?"
+        },
+        {
+            "vague_problem_description": "A company wants to allocate its fixed advertising budget across various platforms to optimize its campaign. Each platform has its metrics which affect the campaign's success.",
+            "clarifying_question": "Can the company choose any quantity of advertising on each platform or are there quantitative restrictions, such as requiring whole number amounts, or non-negative allocations only?"
+        }
+    ]
+}
