@@ -1,1 +1,17 @@
-{"description": "A supermarket wants to optimize the layout of its shelves to maximize sales. Each product has a different sales potential and size. The goal is to arrange products to maximize sales while considering space constraints."}
+{
+    "original_problem_description": "An airline needs to schedule flights using a limited number of planes. Each plane has a different capacity and operating cost, and each route has a different potential revenue. The objective is to maximize profits by optimizing the flight schedule.",
+    "questions": [
+        {
+            "vague_problem_description": "An airline needs to schedule flights with a limited number of planes. Each plane and route contributes differently to the company's outcomes. The objective is to derive an optimal flight schedule.",
+            "clarifying_question": "What specific outcomes are we optimizing for \u2013 is the airline aiming to maximize revenue, minimize costs, maximize the number of flights, or a combination of these objectives?"
+        },
+        {
+            "vague_problem_description": "An airline needs to schedule flights using a number of planes. Each plane has a different capacity and each route has different potential for earnings. The goal is to optimize the use of these planes.",
+            "clarifying_question": "Are there any specific constraints on the number of flights or hours each plane can fly? Additionally, are there maintenance requirements or crew restrictions that need to be considered in the flight schedule?"
+        },
+        {
+            "vague_problem_description": "An airline must determine the use of its limited fleet. Every plane has a cost associated with its operation, and each flight route provides certain financial returns. The task is to optimize the flight program to enhance profitability.",
+            "clarifying_question": "Can you clarify if the planes differ in terms of operating costs and seating capacity? Also, should we account for the variation in potential revenue from different routes, or assume a standardized profit model?"
+        }
+    ]
+}

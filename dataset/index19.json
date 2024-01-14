@@ -1,1 +1,17 @@
-{"description": "A recycling plant processes various materials. Each material has a different processing cost and resale value. The aim is to optimize the processing of materials to minimize waste and maximize profit."}
+{
+    "original_problem_description": "A manufacturer of electronic devices has several assembly lines, each with different production capacities and costs. The goal is to determine the optimal quantity of each device to produce to maximize overall profit, considering production costs and market demand.",
+    "questions": [
+        {
+            "vague_problem_description": "A manufacturer has several assembly lines to produce electronic devices. The goal is to determine the optimal quantity to produce, considering costs and market demand.",
+            "clarifying_question": "What are the production capacities and costs for each assembly line, and do these differ among them?"
+        },
+        {
+            "vague_problem_description": "An electronic devices manufacturer must decide the number of each device to produce on its assembly lines to maximize overall profit, taking into account production constraints.",
+            "clarifying_question": "What is the nature of the market demand for each device, and how does it affect the production quantities?"
+        },
+        {
+            "vague_problem_description": "A company with multiple assembly lines needs to figure out how many electronic devices to produce in order to maximize profit considering various costs.",
+            "clarifying_question": "Are there any limitations regarding the mix of different devices that can be produced simultaneously on each assembly line?"
+        }
+    ]
+}

@@ -1,1 +1,17 @@
-{"description": "A school must assign classrooms to various classes considering the size of each class and the capacity of each room. The goal is to allocate rooms efficiently to accommodate all classes without overcrowding."}
+{
+    "original_problem_description": "A city needs to optimize its waste collection routes. Each truck has a capacity limit, and each area generates different amounts of waste. The objective is to minimize the total distance traveled by garbage trucks.",
+    "questions": [
+        {
+            "vague_problem_description": "A city needs to find the best waste collection routes. Each truck has a capacity limit, and each area generates waste. The goal is to optimize the total distance traveled by garbage trucks.",
+            "clarifying_question": "What does 'optimize' specifically mean in this context - are we looking to minimize the total distance, minimize the number of trucks used, or minimize the time taken for waste collection?"
+        },
+        {
+            "vague_problem_description": "A city needs to optimize its waste collection routes. Each truck has a limit, and each area generates different amounts of waste. The aim is to minimize the total distance traveled.",
+            "clarifying_question": "What is the nature of the capacity limit for each truck? Is it based on weight, volumetric capacity, or some other metric?"
+        },
+        {
+            "vague_problem_description": "A city wants to improve the efficiency of its waste collection. There's a capacity limit for each vehicle involved, and the areas contribute waste. The focus is on minimizing total distance traveled by the collection fleet.",
+            "clarifying_question": "Are there any restrictions on the number or type of vehicles available for use, and are there specific areas that require service more frequently than others due to higher waste generation?"
+        }
+    ]
+}

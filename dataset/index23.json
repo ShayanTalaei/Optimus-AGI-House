@@ -1,1 +1,17 @@
-{"description": "A retail store needs to manage its inventory, considering varying demand, storage costs, and shelf life of products. The objective is to minimize inventory costs while ensuring product availability."}
+{
+    "original_problem_description": "A movie theater with multiple screens needs to decide which films to show and at what times. Each film has a different potential audience and duration. The objective is to schedule film showings to maximize ticket sales revenue.",
+    "questions": [
+        {
+            "vague_problem_description": "A movie theater with multiple screens needs to decide which films to show. Each film has different characteristics. The objective is to schedule film showings.",
+            "clarifying_question": "What is the specific goal we are trying to achieve by scheduling film showings? Are we looking to maximize ticket sales revenue, optimize for audience satisfaction, or balance between different factors?"
+        },
+        {
+            "vague_problem_description": "A movie theater with multiple screens has a range of films to screen, each attracting a different potential audience. The objective is to prioritize films to maximize an outcome.",
+            "clarifying_question": "Could you clarify the constraints on film show times? Are there any restrictions on when certain films can be shown or how often they should be scheduled?"
+        },
+        {
+            "vague_problem_description": "A movie theater needs to schedule which films to show on its multiple screens to maximize ticket sales revenue with respect to film duration and potential audience.",
+            "clarifying_question": "Are there any restrictions regarding the sequence of films, such as necessary breaks between showings, or is the only consideration their duration and potential audience? Also, should we assume that the number of showings for each film is discrete and non-negative?"
+        }
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "original_problem_description": "A funding agency must distribute limited funds among various research proposals. Each proposal has different potential impacts and funding requirements. The goal is to allocate funds to maximize the overall research impact.",
+    "questions": [
+        {
+            "vague_problem_description": "A funding agency must distribute funds among various research proposals to enhance the overall research quality.",
+            "clarifying_question": "What is the criterion for allocating funds to the proposals, is it to maximize potential impact or to balance between impact and budget constraints?"
+        },
+        {
+            "vague_problem_description": "A funding agency is tasked with distributing a certain amount of funds amongst competing research proposals.",
+            "clarifying_question": "Are there any limits to the funding amounts that individual proposals can receive, and are there minimum funding requirements for each proposal?"
+        },
+        {
+            "vague_problem_description": "A funding agency aims to distribute limited funds to maximize benefits from research proposals.",
+            "clarifying_question": "Is the goal strictly to maximize the measurable impact or are there also intangible benefits that should be considered in the fund allocation process?"
+        }
+    ]
+}

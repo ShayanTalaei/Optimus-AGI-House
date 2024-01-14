@@ -1,1 +1,17 @@
-{"description": "A building manager wants to minimize energy costs considering various energy sources (solar, grid) and consumption patterns. The objective is to optimize the usage of energy sources to reduce costs and environmental impact."}
+{
+    "original_problem_description": "In disaster relief operations, resources like food, water, and medical supplies must be distributed. Each resource has a limited availability and each affected area has different needs. The objective is to optimize the allocation of resources to maximize the aid provided.",
+    "questions": [
+        {
+            "vague_problem_description": "In disaster relief operations, resources must be distributed to maximize the aid provided. Each affected area has different needs.",
+            "clarifying_question": "What are the specific types of resources being distributed and are there limits to their availability?"
+        },
+        {
+            "vague_problem_description": "In disaster relief operations, resources like food, water, and medical supplies must be distributed. The objective is to optimize the allocation to maximize the aid provided.",
+            "clarifying_question": "What are the exact constraints on the quantity of resources available for distribution?"
+        },
+        {
+            "vague_problem_description": "In disaster relief operations, resources like food, water, and medical supplies have limited availability and each affected area has different needs.",
+            "clarifying_question": "What is the specific objective that should be optimized in allocating resources\u2014is it to minimize unmet needs, to ensure equitable distribution, or to maximize the number of people reached?"
+        }
+    ]
+}

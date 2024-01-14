@@ -1,1 +1,17 @@
-{"description": "An energy company wants to optimize the output of its renewable energy sources (wind, solar, hydro) considering varying weather conditions and energy demands. The goal is to maximize energy production while minimizing costs."}
+{
+    "original_problem_description": "A hotel needs to determine optimal staffing levels for different departments (like reception, housekeeping) considering varying guest occupancy rates. The goal is to ensure adequate service levels while minimizing labor costs.",
+    "questions": [
+        {
+            "vague_problem_description": "A hotel needs to determine staffing levels for different departments considering varying guest occupancy rates to ensure service standards.",
+            "clarifying_question": "What is the specific objective regarding staffing levels - is it to minimize labor costs, maximize service quality, or balance both?"
+        },
+        {
+            "vague_problem_description": "A hotel needs to determine optimal staffing levels for certain departments considering guest occupancy rates to minimize costs.",
+            "clarifying_question": "Which departments are being considered for the staffing adjustments, and are there fixed minimum staffing requirements for these departments?"
+        },
+        {
+            "vague_problem_description": "A hotel aims to ensure adequate staffing across its operations based on guest occupancy rates.",
+            "clarifying_question": "Are there any limitations on the maximum or minimum number of staff that can be scheduled at any time, and can staff members work in multiple departments?"
+        }
+    ]
+}

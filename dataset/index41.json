@@ -1,1 +1,25 @@
-{"description": "A warehouse manager wants to optimize the arrangement of goods to maximize space utilization and minimize retrieval time. Each type of good has different size and accessibility requirements."}
+{
+    "original_problem_description": "A chemical plant produces various products using different raw materials and processes. The objective is to maximize production efficiency, considering material costs, production capacity, and market demand.",
+    "questions": [
+        {
+            "vague_problem_description": "A chemical plant aims to optimize its operations considering material costs, production capacity, and market demand.",
+            "clarifying_question": "What is the specific objective function of the plant's operations? Is it to maximize production efficiency, minimize costs, or balance between efficiency and costs?"
+        },
+        {
+            "vague_problem_description": "A chemical plant produces various products. The goal is to maximize production under certain conditions.",
+            "clarifying_question": "Which variables are controllable in the problem? Are these the quantities of each product, the types of raw materials used, or the allocation of production time on machines?"
+        },
+        {
+            "vague_problem_description": "A chemical plant produces various products using different raw materials. The objective is to optimize production based on market demand.",
+            "clarifying_question": "Are there any explicit constraints on raw material supply or production capacity that need to be considered in the optimization problem?"
+        },
+        {
+            "vague_problem_description": "A chemical plant uses different processes and raw materials to produce various products and aims to optimize production.",
+            "clarifying_question": "Can production levels be fractional, or are they required to be whole numbers due to packaging or operational constraints?"
+        },
+        {
+            "vague_problem_description": "A chemical plant is focused on maximizing its operations efficiently by considering various aspects of production and market factors.",
+            "clarifying_question": "Is there a constraint on the maximum or minimum production volume for any product based on market demand or supply limitations?"
+        }
+    ]
+}

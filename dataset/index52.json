@@ -1,0 +1,17 @@
+{
+    "original_problem_description": "A mining company needs to decide which ores to extract from different sites, considering extraction costs and market prices. The objective is to maximize profit while managing environmental impact.",
+    "questions": [
+        {
+            "vague_problem_description": "A mining company needs to decide which ores to extract from different sites, considering extraction costs.",
+            "clarifying_question": "What is the primary objective of the company in the extraction process\u2014is it to maximize profit, minimize costs, or balance profit with some other factors such as environmental impact?"
+        },
+        {
+            "vague_problem_description": "A mining company needs to decide on the operations for various ores, taking into account market prices and environmental considerations.",
+            "clarifying_question": "Are there specific extraction costs to be considered for each type of ore and site, and should these be included in the profit calculation?"
+        },
+        {
+            "vague_problem_description": "A mining company is planning to extract ores from several sites to manage environmental impact.",
+            "clarifying_question": "Should the company's decision be based solely on managing environmental impact, or does it also aim to maximize profit given the constraints imposed by environmental regulations?"
+        }
+    ]
+}

@@ -1,5 +1,17 @@
 {
-    "description": "A retailer must decide how much stock to order for each product from various suppliers. Each supplier has different delivery times and costs. The objective is to minimize total supply costs while ensuring stock availability.",
-
-    "clarifying_questions": []
+    "original_problem_description": "A company has a fixed budget for advertising and can advertise on TV, radio, or online. Each advertising medium reaches a different number of people and has a different cost. The goal is to maximize the total audience reach within the budget. Create a linear program to allocate the advertising budget.",
+    "questions": [
+        {
+            "vague_problem_description": "A company has a fixed budget for advertising and can advertise on TV, radio, or online. Each advertising medium has a different cost. The goal is to maximize the audience reach within the budget. Create a program to allocate the advertising budget.",
+            "clarifying_question": "Is the audience reach for each advertising medium provided, or should it be estimated? And should the allocation program be a linear program?"
+        },
+        {
+            "vague_problem_description": "A company has a fixed budget for advertising and can advertise on TV, radio, or online. Each advertising medium reaches a different number of people. The goal is to optimize the total audience reach within the budget.",
+            "clarifying_question": "By 'optimize', do you mean maximize the total audience reach, or is there another metric such as cost efficiency to consider as well?"
+        },
+        {
+            "vague_problem_description": "A company has an allowance to advertise on TV, radio, or online, aiming to optimize audience coverage. Each medium reaches a different number of people and has varying costs.",
+            "clarifying_question": "What is the nature of the advertising budget or allowance? Is it strictly monetary, or are there any specific limitations on the number of ads in each medium? Additionally, are there any other constraints related to the timing or placement of the advertisements?"
+        }
+    ]
 }

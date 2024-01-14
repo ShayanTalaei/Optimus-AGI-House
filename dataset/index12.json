@@ -1,1 +1,17 @@
-{"description": "An airline needs to schedule flights using a limited number of planes. Each plane has a different capacity and operating cost, and each route has a different potential revenue. The objective is to maximize profits by optimizing the flight schedule."}
+{
+    "original_problem_description": "An investor wants to allocate their capital across a range of financial assets to maximize expected returns while minimizing risk. Each asset has an expected return and a risk profile. Formulate a linear program to optimize the asset allocation.",
+    "questions": [
+        {
+            "vague_problem_description": "An investor wants to allocate their capital across a range of financial assets to optimize their profile. Each asset has an expected return and a risk profile.",
+            "clarifying_question": "What is the investor's primary objective in optimizing their profile \u2013 is it to maximize expected returns, minimize risk, or a combination of both weighted in some manner?"
+        },
+        {
+            "vague_problem_description": "An investor wants to allocate their capital across a range of financial assets. Each asset has a financial characteristic that needs to be optimized without additional explicit constraints.",
+            "clarifying_question": "Are there any implicit constraints on the capital allocation, such as a minimum or maximum investment limit in each asset, or are all assets to be considered fractional and divisible?"
+        },
+        {
+            "vague_problem_description": "An investor is interested in allocating their capital in a way that maximizes efficiency across various financial assets, each with its own risk and return metrics.",
+            "clarifying_question": "Should the allocation of capital to each asset be treated as a continuous, fractional value, or are there integral constraints that require the capital to be allocated in whole units?"
+        }
+    ]
+}

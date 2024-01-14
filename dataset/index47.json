@@ -1,1 +1,17 @@
-{"description": "A city wants to optimize bus and train schedules to minimize passenger wait times and maximize coverage. The goal is to create a schedule that best serves the transportation needs of the city."}
+{
+    "original_problem_description": "A warehouse manager wants to optimize the arrangement of goods to maximize space utilization and minimize retrieval time. Each type of good has different size and accessibility requirements.",
+    "questions": [
+        {
+            "vague_problem_description": "A warehouse manager wants to optimize the arrangement of goods to maximize efficiency. Each type of good has different size and handling requirements.",
+            "clarifying_question": "What specific aspects of efficiency are we trying to maximize\u2014is it space utilization, retrieval time, or a combination of both?"
+        },
+        {
+            "vague_problem_description": "A warehouse manager wants to optimize the arrangement of goods, taking into consideration the different sizes and accessibility needs.",
+            "clarifying_question": "Are there specific constraints on how goods can be arranged, such as weight limits on shelves, or are all configurations feasible as long as size and accessibility needs are met?"
+        },
+        {
+            "vague_problem_description": "A warehouse manager is looking to optimize the organization of inventory to enhance space usage and improve goods accessibility.",
+            "clarifying_question": "Does the manager have a priority in terms of space usage versus accessibility, or is there a particular formula for how these two factors should be balanced?"
+        }
+    ]
+}

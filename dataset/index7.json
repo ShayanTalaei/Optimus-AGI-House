@@ -1,7 +1,17 @@
 {
-    "description": "A call center needs to schedule shifts for its employees. Each shift requires a minimum number of employees, and each employee can work only certain hours. The goal is to minimize the total number of employee-hours while covering all shifts.",
-
-    "clarifying_questions": [
-        "Are shifts and employee availabilities daily or weekly?"
+    "original_problem_description": "A furniture company produces tables and chairs. Each table and chair requires different amounts of wood and labor. The company wants to maximize its profit considering the cost of materials, labor, and the selling price of tables and chairs. Formulate a linear program to determine how many tables and chairs should be produced.",
+    "questions": [
+        {
+            "vague_problem_description": "A furniture company produces tables and chairs with varying resources. The company aims to maximize its returns considering various costs and the pricing",
+            "clarifying_question": "What specific resources are considered in the production of tables and chairs, and how do they affect the costs?"
+        },
+        {
+            "vague_problem_description": "A furniture company produces tables and chairs. The company seeks to optimize its financial outcome taking into account the selling price of its products.",
+            "clarifying_question": "Does the company aim to maximize profit, minimize costs, or is it concerned with another measure of financial performance such as ROI?"
+        },
+        {
+            "vague_problem_description": "A furniture company produces an array of items which demands different inputs. The goal is to align production with market demand under various economic considerations.",
+            "clarifying_question": "Are there any restrictions on the production capacity or material availability that must be included in the model?"
+        }
     ]
 }

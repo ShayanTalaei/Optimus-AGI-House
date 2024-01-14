@@ -1,1 +1,17 @@
-{"description": "A food processing plant aims to minimize waste in its operations. Each process has a different waste factor and cost. The goal is to adjust the processes to minimize total waste."}
+{
+    "original_problem_description": "A library wants to optimize the allocation of space for books, seating, and computer stations to maximize usage. Each section has different space requirements and popularity among visitors. The objective is to maximize visitor satisfaction.",
+    "questions": [
+        {
+            "vague_problem_description": "A library wants to optimize the layout for books, seating, and computer stations. The goal is to improve visitor satisfaction.",
+            "clarifying_question": "What metrics are being used to define and quantify visitor satisfaction for books, seating, and computer stations?"
+        },
+        {
+            "vague_problem_description": "A library is looking to rearrange its space dedicated to books, seating, and computer stations to optimize usage.",
+            "clarifying_question": "Are there any specific space limitations or ratios between books, seating, and computer stations that need to be maintained?"
+        },
+        {
+            "vague_problem_description": "A library intends to maximize usage by adjusting the space allocated to different sections.",
+            "clarifying_question": "Can sections overlap, for example, allowing seating areas to also contain books, or must each section be distinctly separate?"
+        }
+    ]
+}

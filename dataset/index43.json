@@ -1,1 +1,17 @@
-{"description": "An event organizer wants to maximize revenue by optimizing ticket prices for different seating zones, considering demand and viewer experience. The goal is to set prices that maximize overall revenue."}
+{
+    "original_problem_description": "A gym owner wants to arrange exercise equipment to maximize member satisfaction and safety. Each piece of equipment has different space requirements and popularity. The objective is to create an optimal layout.",
+    "questions": [
+        {
+            "vague_problem_description": "A gym owner wants to arrange exercise equipment to maximize member satisfaction. Each piece of equipment has different space requirements and popularity. The objective is to create an optimal layout.",
+            "clarifying_question": "What specific metrics are we using to measure member satisfaction in relation to the equipment layout?"
+        },
+        {
+            "vague_problem_description": "A gym owner wants to organize exercise equipment to consider member satisfaction and safety. Each piece of equipment has different space requirements. The objective is to create an optimal layout.",
+            "clarifying_question": "Are there any specific safety standards or distance regulations between pieces of equipment that need to be adhered to in the layout?"
+        },
+        {
+            "vague_problem_description": "A gym owner wants to arrange exercise equipment to satisfy member needs. Each piece of equipment has different space requirements and popularity. The goal is to create an optimal layout.",
+            "clarifying_question": "Does the equipment arrangement need to account for the possibility of future equipment additions or removals, or is the current set of equipment fixed?"
+        }
+    ]
+}

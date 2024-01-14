@@ -1,1 +1,17 @@
-{"description": "A data center manager needs to optimize the allocation of computing resources (servers, storage) to different tasks, considering varying computational demands and energy costs. The goal is to maximize computational efficiency while minimizing energy usage."}
+{
+    "original_problem_description": "A city planner wants to optimize traffic light timings to reduce congestion. Each intersection has different traffic flow patterns. The goal is to minimize overall travel time in the city.",
+    "questions": [
+        {
+            "vague_problem_description": "A city planner aims to adjust traffic light timings to improve traffic flow. Each intersection has variable traffic patterns.",
+            "clarifying_question": "Should the optimization minimize the overall travel time or balance travel time with other factors like pedestrian wait times or fuel consumption?"
+        },
+        {
+            "vague_problem_description": "A city planner wants to optimize traffic light timings. The intersections have different traffic flow patterns.",
+            "clarifying_question": "Are there max/min time constraints for red and green lights at each intersection, or are the timings completely variable within the optimization?"
+        },
+        {
+            "vague_problem_description": "A city planner is tasked with optimizing traffic lights to handle congestion, taking into account the differing traffic flow patterns at intersections.",
+            "clarifying_question": "Does the planner need to consider the timings of adjacent intersections to synchronize traffic lights, or is each intersection treated independently?"
+        }
+    ]
+}

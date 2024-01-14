@@ -1,1 +1,17 @@
-{"description": "A project manager needs to allocate developers with varying skills and hourly rates to tasks in a software project. The goal is to minimize labor costs while ensuring timely project completion."}
+{
+    "original_problem_description": "A manufacturing company wants to minimize its carbon footprint. Each production process has different emission levels and costs. The goal is to optimize the production processes to reduce total emissions.",
+    "questions": [
+        {
+            "vague_problem_description": "A manufacturing company wants to address its carbon footprint. Each production process has different emission levels and costs. The company is looking to optimize its production processes.",
+            "clarifying_question": "What specific optimization goal does the company have in mind for its carbon footprint\u2014is it trying to minimize the emissions, or comply with a certain cap on emissions, or optimize cost with respect to emissions, and in case of cost, is that to minimize or maximize?"
+        },
+        {
+            "vague_problem_description": "A manufacturing company seeks to optimize its production processes, taking into account different emission levels and costs associated with each process.",
+            "clarifying_question": "Are there specific production targets or quotas that must be met, and are there any restrictions on how much the production can be scaled down or up in order to meet the goal?"
+        },
+        {
+            "vague_problem_description": "A manufacturing company aims to reduce total emissions through optimization of its production processes, which have varying emission levels and associated costs.",
+            "clarifying_question": "What constraints are applied to the production processes\u2014such as operational constraints, market demands, production continuity, or minimum throughput levels\u2014and are any of the variables (like emissions per product, or costs) fixed or all variable?"
+        }
+    ]
+}

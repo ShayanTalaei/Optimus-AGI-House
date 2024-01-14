@@ -1,1 +1,17 @@
-{"description": "A chemical plant produces various products using different raw materials and processes. The objective is to maximize production efficiency, considering material costs, production capacity, and market demand."}
+{
+    "original_problem_description": "An event planner needs to arrange seating for guests considering various groups and preferences. The objective is to maximize guest satisfaction by optimizing the seating arrangement.",
+    "questions": [
+        {
+            "vague_problem_description": "An event planner needs to arrange seating for guests considering various groups. The goal is to optimize the seating arrangement.",
+            "clarifying_question": "What is the specific objective for optimizing the seating arrangement - is it to maximize guest satisfaction, ensure accessibility, minimize cost, or something else?"
+        },
+        {
+            "vague_problem_description": "An event planner needs to arrange seating for guests to maximize guest satisfaction with an optimal use of space.",
+            "clarifying_question": "Are there any specific constraints to be considered for seating such as fixed number of seats per table, minimum distance between tables, or guests that cannot be seated together?"
+        },
+        {
+            "vague_problem_description": "An event planner needs to arrange seating for guests to achieve maximum satisfaction by considering various groups and their preferences.",
+            "clarifying_question": "How is guest satisfaction measured or quantified, and are there tiers of preferences or priority groups that should be taken into account for the arrangement?"
+        }
+    ]
+}

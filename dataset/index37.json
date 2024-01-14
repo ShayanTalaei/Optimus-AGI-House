@@ -1,1 +1,17 @@
-{"description": "A gym owner wants to arrange exercise equipment to maximize member satisfaction and safety. Each piece of equipment has different space requirements and popularity. The objective is to create an optimal layout."}
+{
+    "original_problem_description": "A school must assign classrooms to various classes considering the size of each class and the capacity of each room. The goal is to allocate rooms efficiently to accommodate all classes without overcrowding.",
+    "questions": [
+        {
+            "vague_problem_description": "A school must assign classrooms without overcrowding.",
+            "clarifying_question": "What are the factors determining overcrowding; is it the number of students per class or the total number of students in the building?"
+        },
+        {
+            "vague_problem_description": "A school needs to allocate rooms to accommodate all classes.",
+            "clarifying_question": "Are there any constraints on room capacity or class sizes that need to be taken into account in the allocation?"
+        },
+        {
+            "vague_problem_description": "The goal is to assign classrooms efficiently.",
+            "clarifying_question": "What defines efficiency in this context; is it the minimization of unused seating capacity, the maximization of student comfort, or another factor?"
+        }
+    ]
+}

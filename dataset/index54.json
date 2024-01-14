@@ -1,0 +1,17 @@
+{
+    "original_problem_description": "An online retailer needs to decide which products to promote and stock, considering sales data and supply chain constraints. The objective is to maximize sales while minimizing stockouts and overstock.",
+    "questions": [
+        {
+            "vague_problem_description": "An online retailer needs to decide which products to stock, considering sales data and supply chain constraints. The objective is to maximize efficiency while minimizing inventory issues.",
+            "clarifying_question": "What metrics are being used to evaluate efficiency in the context of product stocking and promotion? Is it purely based on sales, profit margins, or a combination?"
+        },
+        {
+            "vague_problem_description": "An online retailer looks to optimize their portfolio of products, taking into account recent sales data and supply chain considerations.",
+            "clarifying_question": "Are there any specific constraints on the number or type of products that the retailer can promote and stock? For example, are there limits due to shelf space or supplier agreements?"
+        },
+        {
+            "vague_problem_description": "An online retailer is strategizing on product promotions and stocking options using sales trends and supply chain information to optimize overall performance.",
+            "clarifying_question": "In terms of overall performance, is the retailer looking to maximize something other than sales, such as customer satisfaction, diversity of products, or is it a weighted objective including multiple factors?"
+        }
+    ]
+}

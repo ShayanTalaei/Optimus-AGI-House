@@ -1,1 +1,17 @@
-{"description": "An online retailer needs to decide which products to promote and stock, considering sales data and supply chain constraints. The objective is to maximize sales while minimizing stockouts and overstock."}
+{
+    "original_problem_description": "An industrial complex aims to minimize its energy consumption considering varying energy rates and operational requirements. The objective is to optimize energy usage across different processes.",
+    "questions": [
+        {
+            "vague_problem_description": "An industrial complex aims to optimize its operations considering varying charges and operational requirements.",
+            "clarifying_question": "What specific aspect of its operations is the industrial complex looking to optimize; is it energy consumption, cost efficiency, production output, or something else?"
+        },
+        {
+            "vague_problem_description": "An industrial complex seeks to minimize costs associated with its energy usage without compromising the production process.",
+            "clarifying_question": "Are there any restrictions on the minimum or maximum energy that must be used in each process, or does it purely depend on the cost?"
+        },
+        {
+            "vague_problem_description": "An industrial complex intends to optimize energy usage across different processes to align with varying operational requirements.",
+            "clarifying_question": "Does the optimization need to consider environmental regulations or penalties for excessive energy consumption?"
+        }
+    ]
+}

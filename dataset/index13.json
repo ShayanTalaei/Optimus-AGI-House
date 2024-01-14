@@ -1,1 +1,17 @@
-{"description": "A manufacturer of electronic devices has several assembly lines, each with different production capacities and costs. The goal is to determine the optimal quantity of each device to produce to maximize overall profit, considering production costs and market demand."}
+{
+    "original_problem_description": "A call center needs to schedule shifts for its employees. Each shift requires a minimum number of employees, and each employee can work only certain hours. The goal is to minimize the total number of employee-hours while covering all shifts.",
+    "questions": [
+        {
+            "vague_problem_description": "A call center needs to schedule shifts. Each shift has a requirement for personnel, and employees have availability windows. The goal is to minimize employee-hours while ensuring shifts are managed.",
+            "clarifying_question": "Are there any minimum or maximum numbers of hours that an individual employee can work in a week?"
+        },
+        {
+            "vague_problem_description": "A call center is planning its employee schedules. All shifts must be filled based on certain conditions, and employees can work at different times. The objective is to minimize the total hours.",
+            "clarifying_question": "Can employees work multiple shifts in a day, and is there a need for a minimum rest period between shifts?"
+        },
+        {
+            "vague_problem_description": "To manage its operations, a call center needs to organize its shifts. Shifts have minimum staffing requirements, and employees have time slots they can fill. The aim is to reduce the total amount of work hours.",
+            "clarifying_question": "Should the optimization consider the fairness of the schedule among the employees, or is it purely about minimizing the total hours irrespective of individual workloads?"
+        }
+    ]
+}

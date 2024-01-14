@@ -1,1 +1,17 @@
-{"description": "A sports league needs to schedule games for the season. Each team has a home stadium and there are constraints on travel and game frequency. The goal is to create a schedule that minimizes travel distances while ensuring fairness in the game schedule."}
+{
+    "original_problem_description": "An energy company needs to optimize the distribution of electricity from different sources (like solar, wind, fossil fuels) to various neighborhoods. Each source has a different production cost and capacity. The objective is to minimize the total cost of energy production while meeting the demand.",
+    "questions": [
+        {
+            "vague_problem_description": "An energy company needs to optimize the distribution of electricity to various neighborhoods. Each source has a production cost and capacity. The goal is to minimize the total expense.",
+            "clarifying_question": "What types of electricity sources are being used, and are there different costs and capacities associated with each?"
+        },
+        {
+            "vague_problem_description": "An energy company needs to optimize the distribution of electricity from different sources to various neighborhoods. The objective is to handle the demand effectively.",
+            "clarifying_question": "Does 'handle the demand effectively' mean to minimize the cost, balance the load, or something else?"
+        },
+        {
+            "vague_problem_description": "An energy company needs to optimize the distribution of electricity from different sources for neighborhoods. Each source has a different cost and capacity.",
+            "clarifying_question": "Are there any environmental or regulatory constraints on the amount of electricity generated from each source?"
+        }
+    ]
+}

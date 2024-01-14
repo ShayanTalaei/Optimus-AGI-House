@@ -1,1 +1,17 @@
-{"description": "In disaster relief operations, resources like food, water, and medical supplies must be distributed. Each resource has a limited availability and each affected area has different needs. The objective is to optimize the allocation of resources to maximize the aid provided."}
+{
+    "original_problem_description": "A farmer has a limited amount of land to plant various crops. Each crop has a different profit margin, growth time, and requires a different amount of resources (like water, fertilizer). The goal is to maximize profit from the crops within the resource constraints.",
+    "questions": [
+        {
+            "vague_problem_description": "A farmer has a finite plot to cultivate. Each type of produce yields a different financial return and has diverse growth periods, utilizing varying resources.",
+            "clarifying_question": "What are the specific resource constraints for each crop, such as the amount of water and fertilizer needed?"
+        },
+        {
+            "vague_problem_description": "A farmer must decide the allocation of their land to grow various crops. Each crop contributes differently to the farmer's earnings and requires a certain duration and resources to grow.",
+            "clarifying_question": "Is there a limit to how much of each resource a crop can use, and are there any other constraints on crop production besides land, such as labor or equipment limits?"
+        },
+        {
+            "vague_problem_description": "A grower is looking to plant multiple crops on their limited land. Each has its own profit potential and growth requirements.",
+            "clarifying_question": "What is the main objective for the grower? Is it to maximize overall profit, ensure crop diversity, or balance between the two?"
+        }
+    ]
+}

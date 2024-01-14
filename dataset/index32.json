@@ -1,1 +1,17 @@
-{"description": "A library wants to optimize the allocation of space for books, seating, and computer stations to maximize usage. Each section has different space requirements and popularity among visitors. The objective is to maximize visitor satisfaction."}
+{
+    "original_problem_description": "An energy company wants to optimize the output of its renewable energy sources (wind, solar, hydro) considering varying weather conditions and energy demands. The goal is to maximize energy production while minimizing costs.",
+    "questions": [
+        {
+            "vague_problem_description": "An energy company wants to optimize its resources considering varying weather conditions and demands. The goal is to manage energy production efficiently.",
+            "clarifying_question": "What specific objectives should be considered in the optimization? Are we looking to maximize energy production, minimize costs, or a combination of both in a certain ratio?"
+        },
+        {
+            "vague_problem_description": "An energy company seeks to optimize the output from renewable energy sources. The focus is to be as productive as possible while maintaining financial viability.",
+            "clarifying_question": "What are the decision variables in this scenario? Are we optimizing the mix of energy sources or the operational schedule of the existing infrastructure?"
+        },
+        {
+            "vague_problem_description": "An energy company aims to optimize the output from renewable energy considering various external conditions. The goal is to enhance overall performance.",
+            "clarifying_question": "Are there any implicit constraints on the energy production, such as environmental regulations or maximum/minimum production capacities for each energy source?"
+        }
+    ]
+}

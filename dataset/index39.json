@@ -1,1 +1,17 @@
-{"description": "A retail chain needs to optimize staffing across its stores considering varying customer footfall and sales patterns. The objective is to ensure adequate staff coverage while controlling labor costs."}
+{
+    "original_problem_description": "A shipping company needs to optimize routes and cargo allocation among its fleet of ships, considering different capacities and operating costs. The aim is to minimize total shipping costs while meeting delivery schedules.",
+    "questions": [
+        {
+            "vague_problem_description": "A shipping company needs to optimize cargo allocation among its fleet, taking into account different capacities and operating costs to reduce expenses.",
+            "clarifying_question": "Should the optimization also consider specific delivery schedules for the cargo, or just minimize costs regardless of the delivery time?"
+        },
+        {
+            "vague_problem_description": "A shipping company is seeking to minimize total expenses while ensuring cargo is allocated efficiently across its fleet, adhering to capacity limitations.",
+            "clarifying_question": "What constitutes 'efficiently' in this context? Does it mean minimizing the distance traveled, time of delivery, or maximizing the utilization of each ship's capacity?"
+        },
+        {
+            "vague_problem_description": "A shipping company aims to utilize its fleet of ships to minimize total shipping costs, factoring in various operating expenses.",
+            "clarifying_question": "Can you clarify if there are any constraints related to environmental regulations or port operation times that need to be included in the optimization model?"
+        }
+    ]
+}

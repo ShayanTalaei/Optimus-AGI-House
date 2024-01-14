@@ -1,1 +1,17 @@
-{"description": "An event planner needs to arrange seating for guests considering various groups and preferences. The objective is to maximize guest satisfaction by optimizing the seating arrangement."}
+{
+    "original_problem_description": "A retail store needs to manage its inventory, considering varying demand, storage costs, and shelf life of products. The objective is to minimize inventory costs while ensuring product availability.",
+    "questions": [
+        {
+            "vague_problem_description": "A retail store needs to manage its inventory with consideration for varying demand and storage costs. The objective is to optimize inventory metrics.",
+            "clarifying_question": "What specific inventory costs should be minimized? Are we considering the shelf life of products in the cost calculation?"
+        },
+        {
+            "vague_problem_description": "A retail store needs to manage its inventory, taking into account varying demand and shelf life of products. The objective is to minimize costs and ensure product availability.",
+            "clarifying_question": "Are there specific storage cost constraints that need to be accounted for in the minimization of the total inventory costs?"
+        },
+        {
+            "vague_problem_description": "A retail store aims to optimize its inventory taking into account varying demand, storage expenses, and shelf life. The goal is to manage costs efficiently.",
+            "clarifying_question": "Is the objective to minimize inventory costs exclusively, or do we also need to consider maximizing product availability or other performance metrics?"
+        }
+    ]
+}

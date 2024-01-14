@@ -1,1 +1,25 @@
-{"description": "A multinational corporation wants to minimize its overhead costs by optimizing the location and size of its offices and factories. The objective is to reduce costs while maintaining operational efficiency and market presence."}
+{
+    "original_problem_description": "A non-profit organization must allocate limited funds and volunteers to various projects. Each project has different impacts and resource needs. The objective is to maximize the overall impact of the organization.",
+    "questions": [
+        {
+            "vague_problem_description": "A non-profit organization must allocate limited funds to various projects. Each project has different impacts.",
+            "clarifying_question": "What other resources, besides funds, need to be allocated to the projects, and are there constraints on these resources?"
+        },
+        {
+            "vague_problem_description": "A non-profit organization must allocate resources to various projects to maximize the overall impact.",
+            "clarifying_question": "What specific resources are being allocated, and are volunteers included among those resources?"
+        },
+        {
+            "vague_problem_description": "A non-profit organization aims to optimize the allocation of limited funds and volunteers to various projects.",
+            "clarifying_question": "What does 'optimize' mean in this context \u2014 is the organization looking to maximize impact, minimize costs, or a combination of both?"
+        },
+        {
+            "vague_problem_description": "A non-profit organization needs to distribute limited resources across various projects to achieve its objective.",
+            "clarifying_question": "What is the objective of the resource allocation, and can overallocation to a single project occur or are there distribution limits?"
+        },
+        {
+            "vague_problem_description": "A non-profit organization must use limited funds and volunteers strategically in various projects.",
+            "clarifying_question": "Are there minimum or maximum thresholds for resources allocated to each project, and do all projects need to receive some allocation?"
+        }
+    ]
+}

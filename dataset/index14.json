@@ -1,1 +1,17 @@
-{"description": "A logistics company must transport goods from multiple warehouses to various destinations. Each route has a transportation cost and each warehouse has a limited supply. The aim is to minimize total transportation costs while meeting the demand at each destination."}
+{
+    "original_problem_description": "A retailer must decide how much stock to order for each product from various suppliers. Each supplier has different delivery times and costs. The objective is to minimize total supply costs while ensuring stock availability.",
+    "questions": [
+        {
+            "vague_problem_description": "A retailer must decide how much stock to order for a variety of products. Each supplier has different delivery times and costs. The goal is to manage the supply efficiently.",
+            "clarifying_question": "What is the specific objective of the retailer in managing the supply\u2014minimizing costs, minimizing delivery time, or a combination of both, and how should they be balanced if it's a combination?"
+        },
+        {
+            "vague_problem_description": "A retailer must decide how much stock to order for each product. Various suppliers have different delivery times and costs. The objective is to ensure stock availability.",
+            "clarifying_question": "Are there any budget limitations for the retailer or a cost threshold that should not be exceeded while ensuring stock availability?"
+        },
+        {
+            "vague_problem_description": "A retailer is determining stock orders from different suppliers who offer varying delivery times and costs. The retailer aims to reduce the supply expenses.",
+            "clarifying_question": "Are there any constraints related to storage capacity, minimum or maximum order quantities, or specific delivery time windows that must be considered in the optimization problem?"
+        }
+    ]
+}

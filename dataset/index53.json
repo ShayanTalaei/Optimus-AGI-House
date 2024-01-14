@@ -1,0 +1,17 @@
+{
+    "original_problem_description": "A city wants to optimize bus and train schedules to minimize passenger wait times and maximize coverage. The goal is to create a schedule that best serves the transportation needs of the city.",
+    "questions": [
+        {
+            "vague_problem_description": "A city aims to optimize bus schedules to serve the transportation needs.",
+            "clarifying_question": "Should the optimization also consider train schedules, and is passenger wait time reduction the only factor or should coverage maximization be included?"
+        },
+        {
+            "vague_problem_description": "A city wants to create a schedule for buses and trains that serves the transportation needs of the city.",
+            "clarifying_question": "What is the primary objective of the schedule optimization - is it to minimize passenger wait times, maximize coverage, or balance between the two?"
+        },
+        {
+            "vague_problem_description": "A city intends to adjust bus and train schedules to maximize coverage and serve residents effectively.",
+            "clarifying_question": "Are there any specific constraints on passenger wait times that need to be considered in the optimization process?"
+        }
+    ]
+}

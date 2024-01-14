@@ -1,0 +1,17 @@
+{
+    "original_problem_description": "A multinational corporation wants to minimize its overhead costs by optimizing the location and size of its offices and factories. The objective is to reduce costs while maintaining operational efficiency and market presence.",
+    "questions": [
+        {
+            "vague_problem_description": "A multinational corporation wants to minimize its overhead costs by optimizing its offices and factories. The goal is to maintain operational efficiency and market presence.",
+            "clarifying_question": "What specific aspects of the location and size of offices and factories are subject to optimization, and are there any upper or lower bounds for their sizes?"
+        },
+        {
+            "vague_problem_description": "A multinational corporation is looking to optimize its offices and factories to reduce costs without compromising on operational efficiency.",
+            "clarifying_question": "Is the corporation's objective to minimize only the direct overhead costs, or are there other indirect costs or factors that should also be considered in the optimization model?"
+        },
+        {
+            "vague_problem_description": "A multinational corporation aims to optimize its offices and factories layout to support its operational efficiency and market presence.",
+            "clarifying_question": "Are there any specific market presence requirements or operational efficiency metrics that need to be maintained or exceeded in the optimization process?"
+        }
+    ]
+}

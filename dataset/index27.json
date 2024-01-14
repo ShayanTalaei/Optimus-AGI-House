@@ -1,1 +1,17 @@
-{"description": "A restaurant needs to schedule its staff (chefs, waiters) considering varying customer footfall at different times. The aim is to ensure efficient service while controlling labor costs."}
+{
+    "original_problem_description": "A building manager wants to minimize energy costs considering various energy sources (solar, grid) and consumption patterns. The objective is to optimize the usage of energy sources to reduce costs and environmental impact.",
+    "questions": [
+        {
+            "vague_problem_description": "A building manager wants to minimize energy costs by considering various energy sources and consumption patterns.",
+            "clarifying_question": "Which energy sources are taken into account, and are there any preferences for renewable sources over non-renewable ones due to environmental impact considerations?"
+        },
+        {
+            "vague_problem_description": "A building manager is tasked with optimizing the usage of energy sources to match consumption patterns.",
+            "clarifying_question": "What is the primary objective of the optimization? Is it purely cost reduction, or does it include reducing environmental impact as well?"
+        },
+        {
+            "vague_problem_description": "A building manager is focusing on the usage of energy sources to minimize costs.",
+            "clarifying_question": "Are there constraints on the maximum or minimum usage of each energy source, and how does the time of day or the season affect the consumption patterns?"
+        }
+    ]
+}

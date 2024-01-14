@@ -1,1 +1,17 @@
-{"description": "A non-profit organization must allocate limited funds and volunteers to various projects. Each project has different impacts and resource needs. The objective is to maximize the overall impact of the organization."}
+{
+    "original_problem_description": "A food processing plant aims to minimize waste in its operations. Each process has a different waste factor and cost. The goal is to adjust the processes to minimize total waste.",
+    "questions": [
+        {
+            "vague_problem_description": "A food processing plant aims to adjust its operations. Each process has a different waste factor and cost.",
+            "clarifying_question": "What is the specific goal of adjusting the operations \u2013 is it to minimize waste, minimize cost, or optimize a combination of both?"
+        },
+        {
+            "vague_problem_description": "A food processing plant aims to minimize waste in its operations. Each process has a different factor and cost associated with it.",
+            "clarifying_question": "What is the 'factor' mentioned here? Is it the waste factor, production rate, or some other metric?"
+        },
+        {
+            "vague_problem_description": "A food processing plant aims to minimize waste. The goal is to adjust the processes accordingly.",
+            "clarifying_question": "What kind of adjustments can be made to the processes? Are there any constraints on the production levels or changes in the process settings?"
+        }
+    ]
+}

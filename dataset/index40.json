@@ -1,1 +1,17 @@
-{"description": "A farmer needs to decide what mix of crops and livestock to raise. Each option has different costs, revenues, and land usage requirements. The goal is to maximize profit while using resources efficiently."}
+{
+    "original_problem_description": "A project manager needs to allocate developers with varying skills and hourly rates to tasks in a software project. The goal is to minimize labor costs while ensuring timely project completion.",
+    "questions": [
+        {
+            "vague_problem_description": "A project manager needs to allocate developers with varying skills to tasks in a software project. The goal is to minimize labor costs while ensuring timely project completion.",
+            "clarifying_question": "Are there any constraints on the number of hours a developer can work or the budget for the project?"
+        },
+        {
+            "vague_problem_description": "A project manager needs to allocate developers to tasks in a software project. The goal is to minimize labor costs while ensuring timely project completion.",
+            "clarifying_question": "Do the developers have different hourly rates, and should these rates be considered in the cost minimization?"
+        },
+        {
+            "vague_problem_description": "A project manager needs to allocate developers with varying skills and hourly rates to tasks. The goal is to ensure project completion.",
+            "clarifying_question": "Is the objective to minimize labor costs, maximize efficiency, or balance between cost and completion time?"
+        }
+    ]
+}

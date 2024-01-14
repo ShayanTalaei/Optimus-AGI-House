@@ -1,1 +1,17 @@
-{"description": "A hospital needs to schedule doctors and nurses across different departments. Each department requires a minimum number of staff per shift, and each staff member has availability constraints. The goal is to meet departmental staffing needs while minimizing total working hours."}
+{
+    "original_problem_description": "A factory produces several products. Each product requires different amounts of resources like raw materials, machine time, and labor. The factory needs to determine the optimal production schedule to maximize profits while not exceeding resource capacities.",
+    "questions": [
+        {
+            "vague_problem_description": "A factory produces several products using varying resources. The factory is aiming to determine an efficient production schedule considering its resource capacities.",
+            "clarifying_question": "Should the factory's schedule be designed to maximize profits, or is there another specific objective to be considered?"
+        },
+        {
+            "vague_problem_description": "A factory produces several products. Each product requires different amounts of resources like raw materials, machine time, and labor. The factory seeks to determine the optimal production schedule based on resource capacities.",
+            "clarifying_question": "Are there any specific limits on the number of each product to be produced, or is the factory allowed to produce unlimited quantities as long as resource capacities are not exceeded?"
+        },
+        {
+            "vague_problem_description": "A factory produces several products. Each product utilizes resources like raw materials, machine time, and labor. The goal is to find an optimal production schedule to maximize the outcome without resource overuse.",
+            "clarifying_question": "Are the resources strictly limited to the current capacities, or can the factory potentially expand or outsource to increase capacity if needed?"
+        }
+    ]
+}

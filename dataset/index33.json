@@ -1,3 +1,17 @@
 {
-    "description": "A shipping company needs to optimize routes and cargo allocation among its fleet of ships, considering different capacities and operating costs. The aim is to minimize total shipping costs while meeting delivery schedules."
+    "original_problem_description": "A restaurant needs to schedule its staff (chefs, waiters) considering varying customer footfall at different times. The aim is to ensure efficient service while controlling labor costs.",
+    "questions": [
+        {
+            "vague_problem_description": "A restaurant needs to schedule its staff considering varying customer footfall at different times to ensure efficient service.",
+            "clarifying_question": "What is the cost function for the labor, and are we minimizing the cost or also considering another objective such as customer satisfaction?"
+        },
+        {
+            "vague_problem_description": "A restaurant is determining the schedule for its staff to handle the customer demand at different times of the day.",
+            "clarifying_question": "Are there any specific roles for staff such as chefs and waiters that need particular scheduling, and are there legal or contractual constraints on the working hours?"
+        },
+        {
+            "vague_problem_description": "A restaurant must organize its workforce while controlling labor costs, given the fluctuation in customers.",
+            "clarifying_question": "Are the variables defining staff schedules continuous, allowing fractional hours, or discrete, necessitating assignments in whole hours?"
+        }
+    ]
 }

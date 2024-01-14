@@ -1,1 +1,17 @@
-{"description": "A manufacturing company wants to minimize its carbon footprint. Each production process has different emission levels and costs. The goal is to optimize the production processes to reduce total emissions."}
+{
+    "original_problem_description": "A farmer needs to allocate water efficiently across different crops under varying weather conditions. The goal is to maximize crop yield while minimizing water usage, considering the water needs of each crop.",
+    "questions": [
+        {
+            "vague_problem_description": "A farmer needs to allocate resources efficiently across different crops under varying weather conditions. The goal is to maximize crop yield.",
+            "clarifying_question": "What type of resources are being allocated, specifically is the resource water or does it include fertilizers and other materials?"
+        },
+        {
+            "vague_problem_description": "A farmer needs to allocate water efficiently across different crops. The goal is to optimize crop yield considering each crop's needs.",
+            "clarifying_question": "What is the optimization criteria for crop yield - is it purely maximization of yield or is there a need to consider a trade-off between yield and water usage?"
+        },
+        {
+            "vague_problem_description": "A farmer needs to allocate water across different crops under varying weather conditions.",
+            "clarifying_question": "What are the constraints involved in water allocation? Are there any limits on the total water available or specific requirements for each crop?"
+        }
+    ]
+}

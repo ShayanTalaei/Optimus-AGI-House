@@ -1,1 +1,17 @@
-{"description": "A parking garage has limited space and wants to maximize its revenue. Different types of parking spots (e.g., regular, premium) have different prices. The goal is to optimize the allocation of parking spaces."}
+{
+    "original_problem_description": "A data center manager needs to optimize the allocation of computing resources (servers, storage) to different tasks, considering varying computational demands and energy costs. The goal is to maximize computational efficiency while minimizing energy usage.",
+    "questions": [
+        {
+            "vague_problem_description": "A data center manager needs to optimize the allocation of computing resources to various tasks, taking into account varying computational demands.",
+            "clarifying_question": "Does the optimization process need to consider energy costs in addition to computational efficiency?"
+        },
+        {
+            "vague_problem_description": "A data center manager needs to maximize computational efficiency and minimize energy usage without specific details on how computing resources should be allocated to tasks.",
+            "clarifying_question": "What kinds of computing resources (e.g., servers, storage) are available, and how exactly can they be allocated to different tasks?"
+        },
+        {
+            "vague_problem_description": "A data center manager is tasked with optimizing computing resource allocation considering computational demands and energy costs.",
+            "clarifying_question": "Is there a specific objective function or metric for computational efficiency that should be maximized, or is the goal to find a balance between efficiency and energy usage?"
+        }
+    ]
+}

@@ -1,1 +1,17 @@
-{"description": "A city needs to optimize its waste collection routes. Each truck has a capacity limit, and each area generates different amounts of waste. The objective is to minimize the total distance traveled by garbage trucks."}
+{
+    "original_problem_description": "A recycling plant processes various materials. Each material has a different processing cost and resale value. The aim is to optimize the processing of materials to minimize waste and maximize profit.",
+    "questions": [
+        {
+            "vague_problem_description": "A recycling plant processes various materials to maximize profit.",
+            "clarifying_question": "Is the plant also aiming to minimize waste or are there any environmentally associated constraints?"
+        },
+        {
+            "vague_problem_description": "A recycling plant processes various materials. Each material impacts the plant's operations differently.",
+            "clarifying_question": "Can you specify how processing costs and resale value for each material factor into the plant's objective of profit maximization?"
+        },
+        {
+            "vague_problem_description": "A recycling plant processes various materials to minimize waste and improve financial outcomes.",
+            "clarifying_question": "Does 'improve financial outcomes' specifically relate to maximizing profit, or does it also include other financial metrics such as cost reduction or revenue maximization?"
+        }
+    ]
+}

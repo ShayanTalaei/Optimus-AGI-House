@@ -1,1 +1,17 @@
-{"description": "An industrial complex aims to minimize its energy consumption considering varying energy rates and operational requirements. The objective is to optimize energy usage across different processes."}
+{
+    "original_problem_description": "A parking garage has limited space and wants to maximize its revenue. Different types of parking spots (e.g., regular, premium) have different prices. The goal is to optimize the allocation of parking spaces.",
+    "questions": [
+        {
+            "vague_problem_description": "A parking garage seeks to optimize the allocation of spaces to various vehicle types in order to influence its financial outcome.",
+            "clarifying_question": "Is the goal of the parking garage to maximize revenue, minimize cost, or optimize a balance between the two?"
+        },
+        {
+            "vague_problem_description": "A parking garage has a finite area and is strategizing on the allocation of its parking spots to increase its financial returns. Every spot has an associated cost based on its category.",
+            "clarifying_question": "What are the different categories of parking spots available, and are there specific revenue values associated with each category?"
+        },
+        {
+            "vague_problem_description": "To maximize its financial gains, a parking garage is re-evaluating how it assigns parking spaces.",
+            "clarifying_question": "Are there any constraints on the number of parking spots available for each type of parking (regular, premium, etc.), and are the numbers of vehicles to be parked in each category predetermined?"
+        }
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "original_problem_description": "A hospital needs to schedule the use of medical equipment like MRI machines, considering patient needs and equipment availability. The goal is to maximize patient throughput while ensuring timely care.",
+    "questions": [
+        {
+            "vague_problem_description": "A hospital needs to schedule the use of medical equipment, considering patient needs and equipment usage.",
+            "clarifying_question": "What is the primary objective in scheduling the medical equipment: maximizing patient throughput, minimizing waiting time, or ensuring the most critical patients are prioritized?"
+        },
+        {
+            "vague_problem_description": "A hospital aims to use medical equipment like MRI machines efficiently, to serve the patient needs effectively.",
+            "clarifying_question": "Are there any specific constraints on the availability of the medical equipment such as operating hours or maintenance times that need to be included in the schedule?"
+        },
+        {
+            "vague_problem_description": "A hospital requires an optimal schedule for medical equipment to provide timely care to patients.",
+            "clarifying_question": "Do we need to consider any sort of prioritization of patients based on urgency or severity of condition, and how should this impact the scheduling?"
+        }
+    ]
+}

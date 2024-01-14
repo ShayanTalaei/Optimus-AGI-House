@@ -1,4 +1,21 @@
 {
-    "description": "A farmer has a limited amount of land to plant various crops. Each crop has a different profit margin, growth time, and requires a different amount of resources (like water, fertilizer). The goal is to maximize profit from the crops within the resource constraints.",
-    "clarfying_questions": 
+    "original_problem_description": "A dietician wants to create a meal plan using different food items. Each item has a cost and provides certain amounts of nutrients (like protein, carbs, fats). The goal is to minimize the total cost of the diet while meeting the nutritional requirements.",
+    "questions": [
+        {
+            "vague_problem_description": "A dietician wants to create a meal plan using different food items to meet certain nutritional requirements.",
+            "clarifying_question": "What is the objective of the meal plan creation, specifically, are we aiming to minimize costs, maximize nutritional value, or achieve a balance of both?"
+        },
+        {
+            "vague_problem_description": "A dietician is looking to devise a meal plan that satisfies nutritional needs while considering the financial aspect associated with different food items.",
+            "clarifying_question": "Should the meal plan account for specific dietary preferences or restrictions, such as vegetarian, vegan, or gluten-free options?"
+        },
+        {
+            "vague_problem_description": "A dietician is tasked with selecting food items that provide certain amounts of nutrients, incorporating them into a comprehensive meal plan.",
+            "clarifying_question": "Are there any upper or lower bounds on the quantity of each food item to be included in the meal plan, and are there any known allergies or intolerances to be considered when selecting these items?"
+        },
+        {
+            "vague_problem_description": "A dietician seeks to create a diet plan that incorporates various food items to minimize the total cost while fulfilling nutritional goals.",
+            "clarifying_question": "Can you specify the nutritional goals or requirements in terms of macro and micronutrients, and do these requirements vary for different groups such as athletes, children, or the elderly?"
+        }
+    ]
 }

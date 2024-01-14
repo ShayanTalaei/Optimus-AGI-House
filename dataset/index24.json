@@ -1,1 +1,17 @@
-{"description": "A city planner wants to optimize traffic light timings to reduce congestion. Each intersection has different traffic flow patterns. The goal is to minimize overall travel time in the city."}
+{
+    "original_problem_description": "A supermarket wants to optimize the layout of its shelves to maximize sales. Each product has a different sales potential and size. The goal is to arrange products to maximize sales while considering space constraints.",
+    "questions": [
+        {
+            "vague_problem_description": "A supermarket wants to optimize the layout of its shelves. Each product has different sales potential and size. The goal is to arrange products to utilize space efficiently.",
+            "clarifying_question": "Is the main objective to maximize sales, or is there also a consideration to minimize unused shelf space?"
+        },
+        {
+            "vague_problem_description": "A supermarket wants to optimize the layout of its shelves to maximize a certain metric. Each product has a different characteristic and occupies some space. The products need to be arranged considering the given constraints.",
+            "clarifying_question": "What specific metric are we trying to maximize - is it sales alone, profit margin, or customer satisfaction? Also, what are the characteristics referred to here?"
+        },
+        {
+            "vague_problem_description": "A supermarket is looking to optimize its shelf layout. Each product has a different sales potential and size. The objective is to arrange the products in a way that aligns with the store's goals.",
+            "clarifying_question": "What are the store's specific goals in optimizing the shelf layout - is it solely to increase sales, or are there other goals such as improving the shopping experience or reducing restocking frequency?"
+        }
+    ]
+}

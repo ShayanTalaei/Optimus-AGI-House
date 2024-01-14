@@ -45,14 +45,12 @@ client = OpenAI(
 )
 
 # Create separate json files for each item
-for i, item in enumerate(items):
+for i, item in enumerate(items, 6):
+    print("====", i, "====")
     item = item.strip()
     if len(item) < 20:
         continue
     prompt = prompt_template.format(problem_description=item.strip())
-
-    print(prompt)
-    print("====")
 
     completion = client.chat.completions.create(
         model="gpt-4-1106-preview",
@@ -67,9 +65,11 @@ for i, item in enumerate(items):
 
     output = completion.choices[0].message.content
 
+    print(output)
     # separate the part between ```json and ```
-    output = output.split("```json")[1].split("```")[0]
-    output = output.strip()
+    if "```json" in output:
+        output = output.split("```json")[1].split("```")[0]
+        output = output.strip()
     output = json.loads(output)
 
     print(json.dumps(output, indent=4))

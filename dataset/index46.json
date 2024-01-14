@@ -1,1 +1,17 @@
-{"description": "A mining company needs to decide which ores to extract from different sites, considering extraction costs and market prices. The objective is to maximize profit while managing environmental impact."}
+{
+    "original_problem_description": "A farmer needs to decide what mix of crops and livestock to raise. Each option has different costs, revenues, and land usage requirements. The goal is to maximize profit while using resources efficiently.",
+    "questions": [
+        {
+            "vague_problem_description": "A farmer needs to decide on a strategy for raising crops and livestock. Each option impacts revenues and land usage differently. The farmer's goal is to make efficient use of resources.",
+            "clarifying_question": "What is the farmer's primary objective in making these decisions; is it to maximize profit, minimize costs, or is there a different specific goal to achieve?"
+        },
+        {
+            "vague_problem_description": "A farmer has to choose a combination of agriculture and animal husbandry options to implement. There are various financial and spatial implications for each choice.",
+            "clarifying_question": "Are there any limitations on how much land can be used for either crops or livestock, and should the selection strategy strictly adhere to these limitations?"
+        },
+        {
+            "vague_problem_description": "A farmer is planning the next season's agricultural activities by selecting various crops and livestock types. Each choice affects costs and the income potential in different ways.",
+            "clarifying_question": "Can the farmer use any type of crop or livestock, or are there restrictions on certain options due to factors like climate, market demand, or regulations?"
+        }
+    ]
+}

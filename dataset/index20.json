@@ -1,1 +1,17 @@
-{"description": "A hotel needs to determine optimal staffing levels for different departments (like reception, housekeeping) considering varying guest occupancy rates. The goal is to ensure adequate service levels while minimizing labor costs."}
+{
+    "original_problem_description": "A logistics company must transport goods from multiple warehouses to various destinations. Each route has a transportation cost and each warehouse has a limited supply. The aim is to minimize total transportation costs while meeting the demand at each destination.",
+    "questions": [
+        {
+            "vague_problem_description": "A logistics company must distribute goods from multiple warehouses to various destinations. Each route incurs a cost and each warehouse has a supply limit.",
+            "clarifying_question": "Is the company trying to minimize the total distribution costs, or is there another objective, such as minimizing time or balancing the load across routes?"
+        },
+        {
+            "vague_problem_description": "A logistics company is tasked with fulfilling the demand for goods at various destinations. Each warehouse has a limited stock, and transportation incurs costs.",
+            "clarifying_question": "Are there any constraints on the number of goods that a single destination can receive, or is the objective solely to meet an exact demand?"
+        },
+        {
+            "vague_problem_description": "A logistics company is planning the transportation of goods using multiple routes between warehouses and destinations, each with associated costs.",
+            "clarifying_question": "Can the same goods be split across multiple routes, or must all items of a particular type go through a single route?"
+        }
+    ]
+}

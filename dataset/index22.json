@@ -1,1 +1,17 @@
-{"description": "A farmer needs to allocate water efficiently across different crops under varying weather conditions. The goal is to maximize crop yield while minimizing water usage, considering the water needs of each crop."}
+{
+    "original_problem_description": "A sports league needs to schedule games for the season. Each team has a home stadium and there are constraints on travel and game frequency. The goal is to create a schedule that minimizes travel distances while ensuring fairness in the game schedule.",
+    "questions": [
+        {
+            "vague_problem_description": "A sports league needs to schedule games for the season. Each team will play at a home stadium with certain logistic requirements. The goal is to create a schedule that ensures an equitable number of games for each team.",
+            "clarifying_question": "Should the schedule also minimize travel distances between games?"
+        },
+        {
+            "vague_problem_description": "A sports league is in the process of planning the seasonal games. It is important to consider the limitations on travel and ensure regular game frequency for the teams.",
+            "clarifying_question": "What is the primary objective of the scheduling? Is it to minimize travel distances, maximize audiences, or something else?"
+        },
+        {
+            "vague_problem_description": "A sports league must organize their seasonal games, considering each team's home stadium and the constraints on travel. A fair game schedule is paramount.",
+            "clarifying_question": "Are there any specific constraints on the maximum number of games that can be played in a given time frame or the minimum rest period between games for a team?"
+        }
+    ]
+}

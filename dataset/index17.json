@@ -1,1 +1,21 @@
-{"description": "A movie theater with multiple screens needs to decide which films to show and at what times. Each film has a different potential audience and duration. The objective is to schedule film showings to maximize ticket sales revenue."}
+{
+    "original_problem_description": "A hospital needs to schedule doctors and nurses across different departments. Each department requires a minimum number of staff per shift, and each staff member has availability constraints. The goal is to meet departmental staffing needs while minimizing total working hours.",
+    "questions": [
+        {
+            "vague_problem_description": "A hospital needs to schedule staff across different departments. Each department has staffing requirements per shift, while minimizing total working hours.",
+            "clarifying_question": "What types of staff are required to be scheduled, and are there specific minimum numbers for each type of staff like doctors, nurses, or technicians?"
+        },
+        {
+            "vague_problem_description": "A hospital needs to schedule doctors and nurses. Each department requires a certain number of staff per shift, aiming to minimize the schedule's total working hours.",
+            "clarifying_question": "Do staff members have individual availability constraints that need to be considered when scheduling?"
+        },
+        {
+            "vague_problem_description": "A hospital needs to arrange doctors and nurses' schedules across departments to meet staffing needs efficiently.",
+            "clarifying_question": "Is the hospital looking to minimize total working hours, or are there other objectives, such as maximizing staff satisfaction or evenly distributing workload?"
+        },
+        {
+            "vague_problem_description": "A hospital is scheduling doctors and nurses in different departments to minimize total working hours without violating staffing requirements.",
+            "clarifying_question": "Are there any explicit upper or lower bounds on the number of hours a single staff member can work in a given time period?"
+        }
+    ]
+}

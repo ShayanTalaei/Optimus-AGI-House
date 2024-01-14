@@ -1,1 +1,17 @@
-{"description": "A hospital needs to schedule the use of medical equipment like MRI machines, considering patient needs and equipment availability. The goal is to maximize patient throughput while ensuring timely care."}
+{
+    "original_problem_description": "A retail chain needs to optimize staffing across its stores considering varying customer footfall and sales patterns. The objective is to ensure adequate staff coverage while controlling labor costs.",
+    "questions": [
+        {
+            "vague_problem_description": "A retail chain needs to optimize staffing across its stores.",
+            "clarifying_question": "What are the specific goals of the staffing optimization? Is it to ensure adequate staff is available, to minimize costs, or to balance both objectives?"
+        },
+        {
+            "vague_problem_description": "A retail chain needs to optimize staffing across its stores to balance coverage and labor costs.",
+            "clarifying_question": "Are there any constraints on the minimum or maximum number of staff members that can be assigned to a single store?"
+        },
+        {
+            "vague_problem_description": "A retail chain seeks to ensure appropriate staff allocation across its stores for varying customer patterns.",
+            "clarifying_question": "What are the decision variables in this optimization problem? Are we deciding on the number of staff per time slot, per day, or for another time period?"
+        }
+    ]
+}

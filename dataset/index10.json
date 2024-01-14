@@ -1,1 +1,17 @@
-{"description": "An energy company needs to optimize the distribution of electricity from different sources (like solar, wind, fossil fuels) to various neighborhoods. Each source has a different production cost and capacity. The objective is to minimize the total cost of energy production while meeting the demand."}
+{
+    "original_problem_description": "A school district wants to optimize its school bus routes. Each bus has a capacity limit, and each route has a different number of students. The objective is to minimize the total distance traveled by all buses while ensuring each student is picked up.",
+    "questions": [
+        {
+            "vague_problem_description": "A school district is looking to optimize school bus utilization. Each bus has a limit, and each route has a different number of passengers. The goal is to minimize the total distance covered by all buses while ensuring transportation for all students.",
+            "clarifying_question": "What is the capacity limit of each bus? Is it the number of students that can be seated, or the total weight that it can carry?"
+        },
+        {
+            "vague_problem_description": "A school district wishes to enhance the efficiency of its school bus logistics. There's an upper bound for each bus and varying student counts on routes. The aim is to reduce the aggregate distance traversed by the buses while picking up all students.",
+            "clarifying_question": "Are there any prescribed minimum or maximum number of stops a bus must or can make on its route?"
+        },
+        {
+            "vague_problem_description": "A school district intends to improve its school bus routing. Each bus has a threshold, and each path accommodates a different student population. The focus is to diminish the overall miles driven by the fleet while ensuring student pickup.",
+            "clarifying_question": "Does the optimization need to consider the time taken for each route, or is the objective solely focused on minimizing the distance without taking time into account?"
+        }
+    ]
+}
